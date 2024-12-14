@@ -1,0 +1,55 @@
+body{
+    background-color: rgb(251, 171, 142);
+}
+
+.container{
+    background-color:salmon;
+    margin-top:150px;
+    width: 45%;
+    padding: 50px;
+    border: 1px solid orangered;
+    border-radius: 10px;
+}
+
+.con{
+    padding: 25px;
+
+}
+
+input{
+    margin-bottom: 15px;
+    border:2px solid orangered;
+    color:orange;
+    border-radius: 10px;
+}
+
+#secenek{
+    margin-bottom: 15px;
+    border:2px solid orangered;
+    color:orange;
+    border-radius: 10px;
+}
+
+#secenek2{
+    margin-bottom: 15px;
+    border:2px solid orangered;
+    color:orange;
+    border-radius: 10px;
+
+}
+
+button{
+    margin-bottom: 4px;
+    float:right;
+    border:2px solid orangered;
+    color:rgb(255, 157, 0);
+    border-radius: 10px;
+    background-color:salmon; 
+
+
+}
+p{
+    color:white;
+    font-weight: bold;
+    font-size: 20px;
+}

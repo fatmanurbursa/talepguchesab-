@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Talep Güç Hesaplama</title>
+
+
+   <!-- !-- Bootstrap CSS v5.2.1 -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT" crossorigin="anonymous">
+    
+    <!-- Font awesome: CDN-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css" />
+    
+    <!-- Google Font: CDN-->
+    <link href="https://fonts.googleapis.com/css2?family=Lora&family=Quicksand:wght@300&display=swap" rel="stylesheet">
+    
+    <!-- animate -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
+    
+    
+    <link rel="stylesheet" href="guc.css">
+    
+    
+    
+    <!-- wow.js -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/wow/1.1.2/wow.min.js"></script>
+    <script> new WOW().init() </script>
+    
+    <!-- sweet alert -->
+    <script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
+    
+    <!-- jquery core and UI -->
+    <link rel="stylesheet" href="//code.jquery.com/ui/1.13.1/themes/base/jquery-ui.css">
+    <script src="https://code.jquery.com/jquery-3.6.0.js"></script>
+    <script src="https://code.jquery.com/ui/1.13.1/jquery-ui.js"></script>
+    
+    
+    
+
+
+</head>
+
+<body>
+    
+<div class="container">
+
+<div class="con">
+
+<div><input type="text" id="input" placeholder="talep gücü giriniz"></div>
+<div>
+<select name="secenek" id="secenek">
+    <option value="Mesken" id="mesken">Mesken</option>
+    <option value="Ticarethane" id="ticarethane">Ticarethane</option>
+</select>
+</div>
+
+
+<div>
+    <select name="secenek2" id="secenek2">
+        <option value="630" id="630">630KVA</option>
+        <option value="1000" id="1000">1000KVA</option>
+        <option value="1600" id="1600">1600KVA</option>
+        <option value="2000" id="2000">2000KVA</option>
+        <option value="2500" id="2500">2500KVA</option>
+    </select>
+    </div>
+
+
+</div>
+
+
+<button id="button"type="button">Hesapla</button>
+
+
+<p id="sonuc">0.0</p>
+</div>
+
+
+<script src="guc.js"></script>
+
+
+</body>
+
+</html>
